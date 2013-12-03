@@ -1,0 +1,28 @@
+/**
+ * @author khangvu <khangvm530@gmail.com>
+ */
+
+a {
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+footer {
+  border-top: 1px solid #c0c0c0;
+  height: 80px;
+}
+
+.hd-banner{
+  background: url("imgs/banner.png");
+}
+
+.hd-navbar {
+  height: 75px;
+  background-color: #464646;
+}
