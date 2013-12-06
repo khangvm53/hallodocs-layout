@@ -17,32 +17,41 @@
     <link href="http://asset.hallodocs.local/vendor/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
     <script src="http://asset.hallodocs.local/vendor/respond/respond.proxy.js"></script>
     <![endif]-->
+    <script src="http://asset.hallodocs.local/vendor/bxslider/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <div id="wrap">
         <!-- nav: -->
-        <header class="navbar navbar-fixed-top hd-navbar">
+        <header class="hd-navbar navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse">
-                        <span class="sr-only">Toggle</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="/">Hallo Docs</a>
-                </div>
+                <nav>
+                    <form class="navbar-left hallodocs">
+                        <a href=""><p><img class="logo hd-logo" src="imgs/hd-logo.png" ><span class="hd-hallodoc"><span class="name-white">Hallo</span><span class="name-green">Docs</span></span></p></a>
+                    </form>
 
-                <nav class="collapse navbar-collapse hd-nav-collapse" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="">Hallo</a>
+                            <a href="" class="btn">SIGN IN</a>
+                        </li>
+
+                        <li class="search-box-2">
+                            <a><img class="logo btn-search" src="imgs/search.png"></a>
+                        </li>
+                    </ul>
+
+                    <form class="navbar-form navbar-right search-box" role="search">
+                        <div class="form-group search-form">
+                            <input type="text" style="display: none" id="input-search" class="form-control" placeholder="Search">
+                        </div>
+                        <a><img id="" class="logo btn-search" src="imgs/search.png"></a>
+                    </form>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="">HALLO</a>
                         </li>
                         <li>
-                            <a href="">Blog</a>
-                        </li>
-                        <li>
-                            <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+                            <a href="">BLOG</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,67 +59,125 @@
         </header>
         <!-- :nav -->
 
-        <!-- content: -->
-        <div id="main">
-            <div class="container">
-                <div class="col-lg-12 hd-banner">
-                    <div>
-                        <img src="imgs/banner.png">
-                    </div>
-                </div>
-                <div class="hd-content">
-                    <div class="col-lg-10 col-lg-offset-1">
+        <!-- banner: -->
+        <div class="hd-banner">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-lg-4">
-
-                            </div>
-                            <div class="col-lg-4">
-
-                            </div>
-                            <div class="col-lg-4">
-
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-6 col-lg-offset-1">
+                                <h2>The Perfect HalloDocs to get you started!</h2>
+                                <p>Create your own unique site design and page layouts with ultra powerful and extremely easy to use admin panel.</p>
+                                <a href="" class="btn green" >SIGN UP NOW</a>
                             </div>
                         </div>
+                    </div>
+            <img src="imgs/banner.jpg" />
+        </div>
+        <!-- :banner -->
 
+        <!-- content: -->
+        <div id="main" class="container">
+            <div class="row">
+                <div class="hd-content col-lg-12">
+                    <div class="col-lg-12">
+                        <div class="row action">
+                            <div class="col-lg-4">
+                                <div class="icon-circle">
+                                    <a href=""><img class="icon" src="imgs/edit.png"></a>
+                                </div>
+                                <h3>INSTITUTE UI</h3>
+                                <span>We create modern clean websites for smart business and organizations that are professional.</span>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="icon-circle">
+                                    <a href=""><img class="icon" src="imgs/config.png"></a>
+                                </div>
+                                <h3>POWERFUL ADMIN</h3>
+                                <span>We create modern clean websites for smart business and organizations that are professional.</span>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="icon-circle">
+                                    <a href=""><img class="icon" src="imgs/fly.png"></a>
+                                </div>
+                                <h3>OPTIMIZATIONS</h3>
+                                <span>We create modern clean websites for smart business and organizations that are professional.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-5">
-                                <img src="imgs/devive.png">
+                                <img src="imgs/devive.jpg">
                             </div>
                             <div class="col-lg-5 col-lg-offset-2">
                                 <h2>Easy to use</h2>
                                 <p>
+                                    Hallodocs guiding rule is very simple, we offer expert skill, innovative creations, full commitment, assets and excellent customer support to all our clients and help them to progress their business to the peak.
                                 </p>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-5">
                                 <h2>Optimized for PDF</h2>
-                                <p></p>
+                                <p>
+                                    Hallodocs guiding rule is very simple, we offer expert skill, innovative creations, full commitment, assets and excellent customer support to all our clients and help them to progress their business to the peak.
+                                </p>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2">
-                                <img src="imgs/demo.png">
+                                <img src="imgs/demo.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="hd-try">
-                    <div class="col-lg-12">
 
-                    </div>
-                </div>
             </div>
         </div>
         <!-- :content -->
 
-        <!-- footer: -->
-        <footer role="contentinfo">
+        <div class="hd-try">
             <div class="container">
-                <small>Copyright&copy; 2013 HalloDocs. All Rights Reserved.</small>
+                <div class="col-lg-12">
+                    <p><h2>Try Hallodocs Free for 30 days</h2><a class="btn brown">Create your docs now</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer: -->
+        <footer>
+            <div class="container">
+                <small>Copyright&copy; 2013 <span>HalloDocs</span>. All Rights Reserved.</small>
             </div>
         </footer>
         <!-- :footer -->
-
     </div>
 </body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $('.bxslider').bxSlider();
+
+        $('.btn-search').click(function() {
+            if($(window).width() > 768 ){
+                $('#input-search').toggle(200);
+            }else
+                if($('#input-search').is(':visible')){
+                    $('#input-search').hide(200);
+                    $('.search-box').hide();
+                    $('.search-box-2').show();
+                    //$('.hd-banner').css('padding-top', $('.hd-navbar').height());
+                }
+        });
+
+        $('.search-box-2 a').click(function() {
+            $('#input-search').show(200);
+            $('.search-box-2').hide();
+            $('.search-box').show();
+            //$('.hd-banner').css('padding-top', $('.hd-navbar').height());
+        });
+    });
+
+</script>
 </html>
