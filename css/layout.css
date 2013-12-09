@@ -3,7 +3,7 @@
  */
 html, body {
   height: 100%;
-  font-family: Sans; }
+  font-family: 'Source Sans Pro', sans-serif; }
 
 footer {
   height: 50px;
@@ -45,6 +45,13 @@ img {
     width: auto;
     height: auto; }
 
+.hd-panel {
+  margin-top: 200px; }
+  .hd-panel.hd-panel-sign-up {
+    margin-bottom: 180px; }
+  .hd-panel.hd-panel-sign-in {
+    margin-bottom: 229px; }
+
 .hd-navbar {
   background-color: #464646;
   height: auto; }
@@ -78,7 +85,11 @@ img {
   margin-top: 100px;
   color: #ffffff; }
   .hd-banner .container h2 {
-    font-size: 45px; }
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300; }
+    .hd-banner .container h2 span {
+      font-weight: 600; }
   .hd-banner .container p {
     font-size: 15px; }
   .hd-banner .container a {

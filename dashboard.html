@@ -9,15 +9,15 @@
     <![endif]-->
 
     <title>Hallo Docs</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
     <link href="http://asset.hallodocs.local/vendor/bootstrap/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/layout.css" media="screen" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
     <script src="http://asset.hallodocs.local/vendor/respond/respond.min.js"></script>
     <link href="http://asset.hallodocs.local/vendor/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
     <script src="http://asset.hallodocs.local/vendor/respond/respond.proxy.js"></script>
     <![endif]-->
-    <script src="http://asset.hallodocs.local/vendor/bxslider/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -26,7 +26,7 @@
             <div class="container">
                 <nav>
                     <form class="navbar-left hallodocs">
-                        <a href=""><p><img class="logo hd-logo" src="imgs/hd-logo.png" ><span class="hd-hallodoc"><span class="name-white">Hallo</span><span class="name-green">Docs</span></span></p></a>
+                        <a href=""><p><img class="logo hd-logo" src="img/hd-logo.png" ><span class="hd-hallodoc"><span class="name-white">Hallo</span><span class="name-green">Docs</span></span></p></a>
                     </form>
 
                     <ul class="nav navbar-nav navbar-right">
@@ -35,7 +35,7 @@
                         </li>
 
                         <li class="search-box-2">
-                            <a><img class="logo btn-search" src="imgs/search.png"></a>
+                            <a><img class="logo btn-search" src="img/search.png"></a>
                         </li>
                     </ul>
 
@@ -43,7 +43,7 @@
                         <div class="form-group search-form">
                             <input type="text" style="display: none" id="input-search" class="form-control" placeholder="Search">
                         </div>
-                        <a><img id="" class="logo btn-search" src="imgs/search.png"></a>
+                        <a><img id="" class="logo btn-search" src="img/search.png"></a>
                     </form>
 
                     <ul class="nav navbar-nav navbar-right">
@@ -65,13 +65,13 @@
                         <div class="row">
                             <div class="col-lg-4"></div>
                             <div class="col-lg-6 col-lg-offset-1">
-                                <h2>The Perfect HalloDocs to get you started!</h2>
+                                <h2>The Perfect <span>HalloDocs</span> to get you started!</h2>
                                 <p>Create your own unique site design and page layouts with ultra powerful and extremely easy to use admin panel.</p>
                                 <a href="" class="btn green" >SIGN UP NOW</a>
                             </div>
                         </div>
                     </div>
-            <img src="imgs/banner.jpg" />
+            <img src="img/banner.jpg" />
         </div>
         <!-- :banner -->
 
@@ -83,21 +83,21 @@
                         <div class="row action">
                             <div class="col-lg-4">
                                 <div class="icon-circle">
-                                    <a href=""><img class="icon" src="imgs/edit.png"></a>
+                                    <a href=""><img class="icon" src="img/edit.png"></a>
                                 </div>
                                 <h3>INSTITUTE UI</h3>
                                 <span>We create modern clean websites for smart business and organizations that are professional.</span>
                             </div>
                             <div class="col-lg-4">
                                 <div class="icon-circle">
-                                    <a href=""><img class="icon" src="imgs/config.png"></a>
+                                    <a href=""><img class="icon" src="img/config.png"></a>
                                 </div>
                                 <h3>POWERFUL ADMIN</h3>
                                 <span>We create modern clean websites for smart business and organizations that are professional.</span>
                             </div>
                             <div class="col-lg-4">
                                 <div class="icon-circle">
-                                    <a href=""><img class="icon" src="imgs/fly.png"></a>
+                                    <a href=""><img class="icon" src="img/fly.png"></a>
                                 </div>
                                 <h3>OPTIMIZATIONS</h3>
                                 <span>We create modern clean websites for smart business and organizations that are professional.</span>
@@ -107,7 +107,7 @@
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-5">
-                                <img src="imgs/devive.jpg">
+                                <img src="img/devive.jpg">
                             </div>
                             <div class="col-lg-5 col-lg-offset-2">
                                 <h2>Easy to use</h2>
@@ -126,7 +126,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2">
-                                <img src="imgs/demo.jpg">
+                                <img src="img/demo.jpg">
                             </div>
                         </div>
                     </div>
@@ -156,8 +156,6 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-
-        $('.bxslider').bxSlider();
 
         $('.btn-search').click(function() {
             if($(window).width() > 768 ){

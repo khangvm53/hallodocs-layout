@@ -4,7 +4,7 @@
 
 html, body {
   height: 100%;
-  font-family: Sans;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer {
@@ -61,6 +61,16 @@ img {
   }
 }
 
+.hd-panel{
+  margin-top: 200px;
+  &.hd-panel-sign-up {
+    margin-bottom: 180px;
+  }
+  &.hd-panel-sign-in {
+    margin-bottom: 229px;
+  }
+}
+
 .hd-navbar {
   background-color: #464646;
   height: auto;
@@ -107,7 +117,12 @@ img {
     margin-top: 100px;
     color: #ffffff;
     h2{
-    font-size: 45px;
+      font-size: 45px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 300;
+      span {
+        font-weight: 600;
+      }
     }
 
     p {
@@ -126,31 +141,33 @@ img {
 }
 
 .hd-content {
-    .action {
-      text-align: center;
+  .action {
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    line-height: 100px;
+    text-align: center;
+    background: #2c3e53;
+    margin: auto;
+    vertical-align: middle;
+    &:hover{
+      background: #ef4c00;
+    }
+  }
+
+  .col-lg-12 {
+    padding-top: 75px;
+    bottom: 0px;
+    &:first-child {
+      padding-top: 55px;
     }
 
-    .icon-circle {
-      width: 100px;
-      height: 100px;
-      border-radius: 50px;
-      line-height: 100px;
-      text-align: center;
-      background: #2c3e53;
-      margin: auto;
-      vertical-align: middle;
-      &:hover{
-        background: #ef4c00;
-      }
-    }
 
-    .col-lg-12 {
-      padding-top: 75px;
-      bottom: 0px;
-      &:first-child {
-        padding-top: 55px;
-      }
-    }
+  }
 }
 
 .hd-try {
